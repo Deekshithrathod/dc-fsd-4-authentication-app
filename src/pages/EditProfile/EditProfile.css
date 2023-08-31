@@ -1,0 +1,134 @@
+.top > a {
+  color: #2d9cdb;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  max-width: 40rem;
+}
+
+.wrapper {
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  max-width: 40rem;
+
+  margin-top: 1rem;
+  padding: 2rem 3rem;
+}
+
+.photo-section {
+  display: flex;
+  align-items: center;
+  gap: 0 1.5rem;
+}
+
+.photo-section > .photo {
+  background-color: black;
+  border-radius: 0.5rem;
+
+  cursor: pointer;
+
+  position: relative;
+
+  width: 5.75rem;
+  height: 5.75rem;
+}
+
+.photo-section > button {
+  background-color: transparent;
+  color: #828282;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.455px;
+  text-transform: uppercase;
+  border: none;
+
+  padding: 0.5rem 1rem;
+}
+
+.photo-section > button:hover {
+  background-color: #dadada;
+  border-radius: 0.5rem;
+}
+
+.photo > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 1;
+  transition: ease-in-out 0.3s;
+}
+
+.photo-section > .photo > svg {
+  color: white;
+  background-color: transparent;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.photo:hover > img {
+  opacity: 0.3;
+}
+
+.wrapper > label {
+  color: #4f4f4f;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.455px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper > label:hover {
+  color: #7e7e7e;
+}
+
+.wrapper > label > input {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.455px;
+
+  border-radius: 12px;
+  border: 1px solid #828282;
+
+  width: 60%;
+
+  margin-top: 0.25rem;
+  padding: 1.125rem;
+}
+
+.wrapper > label:hover > input:hover {
+  border: 1px solid #7e7e7e;
+}
+
+.wrapper > button {
+  color: #fff;
+  background-color: #2f80ed;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: -0.56px;
+  border-radius: 0.5rem;
+  border: none;
+
+  cursor: pointer;
+
+  width: fit-content;
+
+  padding: 0.5rem 1.5rem;
+}
+
+.wrapper > button:hover {
+  background-color: #559fff;
+}

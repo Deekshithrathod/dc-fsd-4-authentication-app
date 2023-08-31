@@ -1,0 +1,22 @@
+.heading-container {
+  color: #333;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem 0;
+
+  margin-top: 1.5rem;
+}
+
+.heading-container > h2.title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: -0.63px;
+}
+
+.heading-container > p.sub-title {
+  color: #333;
+  font-size: 1rem;
+  letter-spacing: -0.56px;
+  text-align: left;
+}

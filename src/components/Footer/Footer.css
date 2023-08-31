@@ -1,0 +1,19 @@
+footer {
+  color: #828282;
+  font-size: 0.875rem;
+  letter-spacing: -0.49px;
+  text-align: center;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 0.75rem;
+}
+
+footer > span > b > a {
+  color: #828282;
+
+  font-weight: 600;
+  text-transform: none;
+  text-decoration: none;
+}

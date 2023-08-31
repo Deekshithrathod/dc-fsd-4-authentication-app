@@ -1,4 +1,4 @@
-- [ ] Note down all the fonts used
+- [x] Note down all the fonts used
 - [ ] Research how to use themes in mui
 - [ ] Explore the ways to authenticate user using passport
 

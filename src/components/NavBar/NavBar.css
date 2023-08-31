@@ -1,0 +1,101 @@
+nav {
+  width: 80%;
+  max-width: 75rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 auto;
+  padding: 1.5rem 5.75rem;
+}
+
+.logo > img {
+  height: 1.125rem;
+}
+
+.user-panel {
+  display: flex;
+  align-items: center;
+  gap: 0 0.75rem;
+
+  cursor: pointer;
+
+  position: relative;
+}
+
+.user-img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.user-img > img {
+  border-radius: 8px;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+.menu {
+  background-color: white;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05);
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  width: 10rem;
+
+  position: absolute;
+  top: 200%;
+  right: 0;
+
+  padding: 1rem 0.75rem;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 0 0.625rem;
+
+  padding: 0.625rem 0.75rem;
+}
+
+.menu-item > svg {
+  color: #4f4f4f;
+  font-size: 1.5rem;
+
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  border-radius: 8px;
+  background-color: #f2f2f2;
+}
+
+.menu > hr {
+  height: 1px;
+  border: none;
+  background: #e0e0e0;
+}
+
+.menu-item-text {
+  color: #4f4f4f;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: -0.42px;
+}
+
+svg.red,
+.menu-item-text.red {
+  color: red;
+}
+
+.rotated {
+  transform: rotate(180deg);
+}

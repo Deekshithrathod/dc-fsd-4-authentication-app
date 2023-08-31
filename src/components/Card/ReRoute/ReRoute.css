@@ -1,0 +1,11 @@
+p.re-route {
+  color: #828282;
+  font-size: 0.875rem;
+  letter-spacing: -0.49px;
+  text-align: center;
+}
+
+p.re-route > a {
+  color: #2d9cdb;
+  text-decoration: none;
+}
